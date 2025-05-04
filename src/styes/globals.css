@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+html,
+body {
+    @apply antialiased bg-gray-50 text-gray-900;
+}
+
+/* Add responsive table styles */
+.table-responsive {
+    @apply block w-full overflow-x-auto;
+}
+
+/* Button hover effects */
+.btn-hover-effect {
+    @apply transition-all duration-200;
+}
+
+/* Custom focus styles for better accessibility */
+.custom-focus {
+    @apply focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50;
+}
+
+/**
+ * This file is where you would add any additional global styles,
+ * custom utility classes, or override Tailwind defaults.
+ * 
+ * For a production app, you would configure Tailwind with a proper
+ * tailwind.config.js file to customize colors, fonts, etc.
+ */
