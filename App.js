@@ -11,7 +11,7 @@ import ProspectPage from './pages/ProspectPage';
 import DashboardPage from './pages/DashboardPage';
 import { DomainProvider } from './context/DomainContext';
 import { AuthProvider } from './context/AuthContext';
-import './styes/globals.css';
+import './styles/globals.css';
 
 /**
  * Main App component

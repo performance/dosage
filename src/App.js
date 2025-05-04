@@ -12,7 +12,7 @@ import DashboardPage from './pages/DashboardPage';
 import LandingPageGenerator from './pages/LandingPageGenerator';
 import { DomainProvider } from './context/DomainContext';
 import { AuthProvider } from './context/AuthContext';
-import './styes/globals.css';
+import './styles/globals.css';
 
 /**
  * Main App component

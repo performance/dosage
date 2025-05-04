@@ -74,7 +74,7 @@ DomainIntel is a web-based platform that helps users discover, value, and sell d
 ├── hooks/                # Custom React hooks
 ├── utils/                # Utility functions
 ├── context/              # React context for state management
-└── styes/                # Global styles and Tailwind configuration
+└── styles/               # Global styles and Tailwind configuration
 ```
 
 ## Technologies Used
